@@ -1,0 +1,142 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Stile del corpo della pagina */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Stile dell'header */
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px; /* Regola le dimensioni del logo */
+  height: auto;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Stile del modulo di accesso e registrazione */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blu accattivante */
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Cambia colore al passaggio del mouse */
+}
+
+/* Stile dei post */
+.post {
+  margin-bottom: 40px;
+}
+
+.post-item {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-header .user-info img {
+  width: 50px; /* Regola le dimensioni delle immagini profilo */
+  height: 50px;
+  border-radius: 50%; /* Rendi le immagini profilo rotonde */
+  margin-right: 10px;
+}
+
+.post-header .user-info h3 {
+  display: inline;
+}
+
+.post-content img {
+  max-width: 100%; /* Assicura che le immagini dei post siano dimensionate correttamente */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.post-comments ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.post-comments .comment {
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-comments .comment .user-info img {
+  width: 30px; /* Regola le dimensioni delle immagini profilo nei commenti */
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.post-comments .comment .user-info h5 {
+  display: inline;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.post-comments .comment p {
+  margin: 5px 0;
+}
